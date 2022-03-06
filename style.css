@@ -15,12 +15,9 @@ body{
 /* .names{
     display: flex;
     justify-content: center; */
-}
-.q{
-    color: blue;
-}
+
 .we{
-    color: rgb(23, 55, 238);
+    color: blue;
 }
 .head{
     margin-top: 3em;
@@ -30,4 +27,11 @@ body{
 .baraka{
     margin-top: 4em;
     margin-left: 3em;
+}
+.red{
+    color: blue;
+    font-size: 2em
+}
+.pin{
+    font-size: 1.5em;
 }
