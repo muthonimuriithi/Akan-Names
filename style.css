@@ -20,7 +20,10 @@ body{
             
 
 .we{
-    color: blue;
+    color: rgb(0, 162, 255);
+}
+.we span{
+    color: coral;
 }
 .head{
     margin-top: 3em;
@@ -32,14 +35,18 @@ body{
     margin-left: 3em;
 }
 .red{
-    color: blue;
+    color: rgb(0, 162, 255);
     font-size: 2em
+}
+.red span{
+    color: coral;
 }
 .pin{
     font-size: 1.5em;
 }
 .he{
-    color: blue;
+   
+    color: rgb(0, 162, 255);
 }
 #n1{
     font-size: 1.5em;
@@ -47,7 +54,7 @@ body{
     margin-right: 2.5em;
 }
 .it{
-    color: blue;
+    color: rgb(0, 162, 255);
 }
 #n2{
     font-size: 1.5em;
@@ -60,7 +67,4 @@ body{
     width: 35em;
     margin-left: 2em;
     font-size: 2em;
-}
-/* #month{
-    margin: 2em; */
 }
