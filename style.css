@@ -1,10 +1,33 @@
 *{
-    
+  margin: 0;  
+  padding: 0;
 }
 body{
-    background-image: url("/images/akann.jpeg");
+    background-image: url("/images/ghans.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%vh;
     background-blend-mode: darken;
+    background: 0, 0, 0, 0.2;
+    color: white;
+    
+}
+/* .names{
+    display: flex;
+    justify-content: center; */
+}
+.q{
+    color: blue;
+}
+.we{
+    color: rgb(23, 55, 238);
+}
+.head{
+    margin-top: 3em;
+    margin-left: 15em;
+    font-size: 1.5em;
+}
+.baraka{
+    margin-top: 4em;
+    margin-left: 3em;
 }
