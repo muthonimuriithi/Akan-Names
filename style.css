@@ -12,9 +12,12 @@ body{
     color: white;
     
 }
-/* .names{
+.names{
     display: flex;
-    justify-content: center; */
+    /* justify-content:space-around; */
+    margin-top: 2em;
+}
+            
 
 .we{
     color: blue;
@@ -34,4 +37,12 @@ body{
 }
 .pin{
     font-size: 1.5em;
+}
+.he{
+    color: blue;
+}
+#n1{
+    font-size: 1.5em;
+    color: black;
+    margin-right: 2.5em;
 }
