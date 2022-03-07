@@ -1,67 +1,80 @@
-*{
-  margin: 0;  
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     background-color: beige;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%vh;
     background-blend-mode: darken;
     background: 0, 0, 0, 0.2;
-    
-    
+
+
 }
-.names{
+
+.names {
     display: flex;
     /* justify-content:space-around; */
     margin-top: 2em;
 }
-            
 
-.we{
+
+.we {
     color: rgb(0, 162, 255);
 }
-.we span{
+
+.we span {
     color: coral;
 }
-.head{
+
+.head {
     margin-top: 3em;
     margin-left: 15em;
     font-size: 1.5em;
 }
-.baraka{
+
+.baraka {
     margin-top: 4em;
     margin-left: 3em;
 }
-.red{
+
+.red {
     color: rgb(0, 162, 255);
     font-size: 2em
 }
-.red span{
+
+.red span {
     color: coral;
 }
-.pin{
+
+.pin {
     font-size: 1.5em;
 }
-.he{
-   
+
+.he {
+
     color: rgb(0, 162, 255);
 }
-#n1{
+
+#n1 {
     font-size: 1.5em;
     color: black;
     margin-right: 2.5em;
 }
-.it{
+
+.it {
     color: rgb(0, 162, 255);
 }
-#n2{
+
+#n2 {
     font-size: 1.5em;
     color: black;
-    margin-right: 2.5em;   
+    margin-right: 2.5em;
 }
-#form{
+
+#form {
     /* background-image: url("/images/ghans.jpeg"); */
     display: flex;
     flex-direction: column;
@@ -72,27 +85,32 @@ body{
     border-radius: 15px;
     text-align: left;
 }
-legend{
+
+legend {
     color: rgb(0, 162, 255);
     text-align: center;
     font-size: 1em;
 }
-#month{
+
+#month {
     margin-top: 5%;
 
 }
-#date{
+
+#date {
     margin-top: 5%;
 }
-#bu{
+
+#bu {
     margin-top: 4%;
 }
-.select{
+
+.select {
     display: flex;
     flex-direction: column;
 }
+
 /* #yu{
     display: flex;
     flex-direction: row;
 } */
-
