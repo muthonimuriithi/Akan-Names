@@ -65,35 +65,40 @@
         </div>
     </div>
 
-    
-    <div class="last">
-        <form id="form" name="form">
-            <legend>Fill here to get your Akan name:
-                <hr>
-            </legend>
 
-            <input type="number" name="year" id="year" min="1900" max="2022" required placeholder="year">
+    <div class="col-lg-4 col-md-6 mt-4">
 
-            <input type="number" name="month" id="month" min="1" max="12" required placeholder="month">
+        <form id="form">
+            <h4> Fill details</h4>
+            <div class="form-group mb-2">
+                <label for="year">Birthday:</label>
+                <input type="date" class="form-control" id="dateInput" placeholder="mm/dd/yy" name="year" required />
+            </div>
 
-            <input type="number" name="date" id="date" min="1" max="31" required placeholder="Date">
-
-            <p id="bu">Select your gender: <br></p>
-            <div class="select">
-                <div id="yu">
-                <label for="gender">Female</label>
-                <input type="radio" value="Female" name="gender" checked>
-                <label for="gender">Male</label>
-                <input type="radio" name="gender" id="male" checked>
+            <div class="form-group">
+                <h4>Gender</h4>
+                <div class="form-check mb-1">
+                    <input type="radio" name="gender" id="female" required>
+                    <label class="form-check-label">Female</label>
                 </div>
-
-                <input type="submit" onsubmit="findDay()"  value="Submit">
+                <div class="form-check mb-2">
+                    <input type="radio" name="gender" id="male" required>
+                    <label class="form-check-label">Male</label>
+                </div>
+                <button type="submit" name="button" onclick="findDay();"
+                    class="submit-btn btn-primary mb-2">Submit</button>
 
             </div>
-        </form>
-    </div>
-    <script src="script.js"></script>
 
+        </form>
+        <p class="text-center" id="output">Displayed here</p>
+
+    </div>
+    </div>
+    </section>
+
+    
 </body>
+<script src="index.js"></script>
 
 </html>
