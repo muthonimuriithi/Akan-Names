@@ -23,44 +23,47 @@
 
     <div class="baraka">
         <div class="tee">
-        <h2 class="red">The <span>Akan Names</span></h2>
-    </div>
-    
-
-    <div class="pin">
-        <p>This application will enable you achieve your Akan name by filling in the <br> form with your date of birth and year and it will calculate for you your Akan <br> name, depending on your gender! The Akan people of Ghana frequently <br> name their children after the day of the week they were born. Below are how the naming<br> was done based on the gender:</p>
-            
-
-    </div>
-
-    <div class="names">
-        <div id="n1">
-        <h2 class="he">MALE</h2>
-        <ul>
-            <li>Sunday: Kwasi</li>
-            <li>Monday: Kwadwa</li>
-            <li>Tuesday: Kwabena</li>
-            <li>Wednesday: Kwaku</li>
-            <li>Thursday: Yaw</li>
-            <li>Friday: Kofi</li>
-            <li>Saturday: Kwame</li>
-        </ul>
-    </div>
-        <div id="n2">
-            <h2 class="it">FEMALE</h2>
-            <ul>
-                <li>Sunday: Akosua</li>
-                <li>Monday: Adwoa</li>
-                <li>Tuesday: Abenaa</li>
-                <li>Wednesday: Akua</li>
-                <li>Thursday: Yaa</li>
-                <li>Friday: Afua</li>
-                <li>Saturday: Ama</li>
-            </ul>
+            <h2 class="red">The <span>Akan Names</span></h2>
         </div>
 
+
+        <div class="pin">
+            <p>This application will enable you achieve your Akan name by filling in the <br> form with your date of
+                birth and year and it will calculate for you your Akan <br> name, depending on your gender! The Akan
+                people of Ghana frequently <br> name their children after the day of the week they were born. Below are
+                how the naming<br> was done based on the gender:</p>
+
+
+        </div>
+
+        <div class="names">
+            <div id="n1">
+                <h2 class="he">MALE</h2>
+                <ul>
+                    <li>Sunday: Kwasi</li>
+                    <li>Monday: Kwadwa</li>
+                    <li>Tuesday: Kwabena</li>
+                    <li>Wednesday: Kwaku</li>
+                    <li>Thursday: Yaw</li>
+                    <li>Friday: Kofi</li>
+                    <li>Saturday: Kwame</li>
+                </ul>
+            </div>
+            <div id="n2">
+                <h2 class="it">FEMALE</h2>
+                <ul>
+                    <li>Sunday: Akosua</li>
+                    <li>Monday: Adwoa</li>
+                    <li>Tuesday: Abenaa</li>
+                    <li>Wednesday: Akua</li>
+                    <li>Thursday: Yaa</li>
+                    <li>Friday: Afua</li>
+                    <li>Saturday: Ama</li>
+                </ul>
+            </div>
+
+        </div>
     </div>
-</div>
 
     <!-- <form id="form">
         <input type="text" name="date" id="date" placeholder="Date" required>
@@ -68,28 +71,32 @@
         <input type="text" name="year" id="year" placeholder="Year" required>
     </form> -->
     <div class="last">
-        <form id="form" name="form" onSubmit="findDay()">
-            <legend>Fill here to get your Akan name:<hr>
+        <form id="form" name="form" onsubmit="findDay()">
+            <legend>Fill here to get your Akan name:
+                <hr>
             </legend>
-            
+
             <input type="number" name="year" id="year" min="1900" max="2022" required placeholder="year">
-           
+
             <input type="number" name="month" id="month" min="1" max="12" required placeholder="month">
-            
+
             <input type="number" name="date" id="date" min="1" max="31" required placeholder="Date">
 
-            <p>Select your gender: <br></p>
+            <p id="bu">Select your gender: <br></p>
             <div class="select">
+                <div id="yu">
                 <label for="gender">Female</label>
                 <input type="radio" value="Female" name="gender" checked>
                 <label for="gender">Male</label>
                 <input type="radio" name="gender" id="male" checked>
+                </div>
 
-                <input type="submit" value="Submit">
+                <input type="submit" onclick="myButton()"  value="Submit">
 
             </div>
         </form>
     </div>
+    <script src="script.js"></script>
 
 </body>
 
