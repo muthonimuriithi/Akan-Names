@@ -1,15 +1,9 @@
-// let form=document.getElementById("form");
-// let date=document.forms["form"]["day"];
-// let month=document.forms["month"]["month"];
-// let year=document.forms["year"]["year"];
+let form=document.getElementById("form");
+let date=document.forms["form"]["day"];
+let month=document.forms["month"]["month"];
+let year=document.forms["year"]["year"];
 
-// function myButton(){
-//     if(date.value.length=="" || month.value.length=="" || year.value.length==""){
-//         // document.getElementById("").innerHTML="PLEASE FILL OUT ALL FIELDS!!"
-//         alert("kindlu fii all the fields");
-//         return false;
-//     }
-// }
+
 var get = function (y, m, d, h) {
     var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var maleName = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
