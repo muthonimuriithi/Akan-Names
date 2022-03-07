@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: beige;
+    /* background-color: beige; */
+    background-image: url("/images/picc.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%vh;
@@ -55,27 +56,29 @@ body {
 
 .he {
 
-    color: rgb(0, 162, 255);
+    color: coral;
+    font-size: 1.5em;
 }
-
 #n1 {
     font-size: 1.5em;
-    color: black;
+    color: white;
     margin-right: 2.5em;
 }
 
 .it {
-    color: rgb(0, 162, 255);
+    color: coral;
+    font-size: 1.5em;
 }
 
 #n2 {
     font-size: 1.5em;
-    color: black;
+    color: white;
     margin-right: 2.5em;
 }
 
 #form {
-    background-image: url("./images/ghans.jpeg");
+    /* background-image: url("/images/ghans.jpeg"); */
+    background-color: beige;
     display: flex;
     flex-direction: column;
     width: 35em;
@@ -111,3 +114,7 @@ legend {
     flex-direction: column;
 }
 
+/* #yu{
+    display: flex;
+    flex-direction: row;
+} */
