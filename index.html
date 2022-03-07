@@ -65,13 +65,9 @@
         </div>
     </div>
 
-    <!-- <form id="form">
-        <input type="text" name="date" id="date" placeholder="Date" required>
-        <input type="text" name="month" id="month" placeholder="Month" required>
-        <input type="text" name="year" id="year" placeholder="Year" required>
-    </form> -->
+    
     <div class="last">
-        <form id="form" name="form" onsubmit="findDay()">
+        <form id="form" name="form">
             <legend>Fill here to get your Akan name:
                 <hr>
             </legend>
@@ -91,7 +87,7 @@
                 <input type="radio" name="gender" id="male" checked>
                 </div>
 
-                <input type="submit" onclick="myButton()"  value="Submit">
+                <input type="submit" onsubmit="findDay()"  value="Submit">
 
             </div>
         </form>
