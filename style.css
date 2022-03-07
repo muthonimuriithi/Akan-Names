@@ -75,7 +75,7 @@ body {
 }
 
 #form {
-    /* background-image: url("/images/ghans.jpeg"); */
+    background-image: url("/images/ghans.jpeg");
     display: flex;
     flex-direction: column;
     width: 35em;
@@ -87,7 +87,8 @@ body {
 }
 
 legend {
-    color: rgb(0, 162, 255);
+    /* color: rgb(0, 162, 255); */
+    color: white;
     text-align: center;
     font-size: 1em;
 }
