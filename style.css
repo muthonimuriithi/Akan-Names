@@ -62,9 +62,37 @@ body{
     margin-right: 2.5em;   
 }
 #form{
+    /* background-image: url("/images/ghans.jpeg"); */
     display: flex;
     flex-direction: column;
     width: 35em;
     margin-left: 2em;
+    margin-top: 4em;
     font-size: 2em;
+    border-radius: 15px;
+    text-align: left;
 }
+legend{
+    color: rgb(0, 162, 255);
+    text-align: center;
+    font-size: 1em;
+}
+#month{
+    margin-top: 5%;
+
+}
+#date{
+    margin-top: 5%;
+}
+#bu{
+    margin-top: 4%;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+}
+/* #yu{
+    display: flex;
+    flex-direction: row;
+} */
+
